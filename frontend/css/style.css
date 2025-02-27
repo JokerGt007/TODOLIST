@@ -1,0 +1,107 @@
+@import url(https://fonts.google.com/share?selection.family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+body {
+    background-color: rgb(97, 24, 165);
+}
+
+main {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.add-form {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+
+}
+
+input {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    background-color: rgb(161, 67, 248);
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td {
+    color: #333;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5f5;
+}
+
+select {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #ebebebeb;
+}
+
+select:hover {
+    background-color: #ddd;
+}
+
+.btn-action {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-action:nth-child(1) {
+    background-color: #42fcfc;
+    margin-right: 5px;
+}
+
+.btn-action:nth-child(2) {
+    background-color: rgb(253, 54, 54);
+}
